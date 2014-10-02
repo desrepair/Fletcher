@@ -41,6 +41,7 @@ public class ClubMember implements Comparable<ClubMember>{
     
     public ClubMember(String u, String fn, String ln, DateTime dob, char g, int c,
             boolean e, String em, String p) {
+        System.out.println(u + " " + fn + " " + ln);
         uni = u;
         firstName = fn;
         lastName = ln;
